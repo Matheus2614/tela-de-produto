@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 80%;
+    margin: 2em auto;
+
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 100%;
+}
+
+
+.fotos img:hover {
+    transform: scale(1.1)
+}
+
+.fotos img {
+    width: 90%;
+}
+
+.centro {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 30%;
+    height: 100%;
+}
+
+.texto h1 {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.texto h2 {
+    text-decoration: underline;
+}
+
+.botao {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.botao button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: darkorange;
+    border: 0px;
+    box-shadow: 3px 5px 10px black;
+}
+
+.botao button:hover {
+    transform: scale(1.1);
+}
